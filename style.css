@@ -1,0 +1,159 @@
+html{
+    background-color: grey;
+}
+
+@media only screen and (max-width: 800px) {
+    body{
+        width: 100%;
+        padding: 0;
+    }
+
+    .dota{
+        flex-direction: column;
+    }
+
+    .genshin{
+        flex-direction: column-reverse;
+    }
+ }
+
+header{
+    background-color: #30475e;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Jura', sans-serif;
+}
+
+header p{
+    font-size: 20px;
+}
+
+footer {
+    color: white;
+    background-color: #30475e;
+    text-align: center;
+    font-weight: bold;  
+    font-family: 'Jura', sans-serif;
+    padding: 20px;
+ }
+
+nav {
+    padding: 10px;
+    background-color: #222831;
+}
+
+.main{
+    max-width: 1500px;
+}
+
+.bio{
+    background-color: #faf3e0;
+    font-size: 20px;
+    font-family: 'Jura', sans-serif;
+}
+
+.bio h2{
+    text-align: center;
+}
+
+.game{
+    background-color:#dddddd;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Jura', sans-serif;
+}
+
+.dota{
+    display: flex;
+    justify-content: left;
+    padding: 30px;
+}
+.dota p{
+    text-align: center;
+}
+
+.genshin{
+    display: flex;
+    justify-content: left;
+    padding: 30px;
+}
+
+.genshin p{
+    text-align: center;
+}
+
+aside{
+    background-color: #222831;
+    margin-bottom: 20px;
+}
+
+
+.penulis{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: 'Jura', sans-serif;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.zoom {
+    transition: transform .5s; 
+    margin: auto;
+  }
+  
+.zoom:hover {
+    transform: scale(1.5); 
+  }
+
+.card {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+.tombol {
+    background-color: #256e9e;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Jura', sans-serif;
+    cursor: pointer;
+  }
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 1%
+  }
+  
+.pilihan {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    width: 200px;
+  }
+  
+.pilihan a{
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Jura', sans-serif;
+    text-decoration: none;
+    display: block;
+  }
+  
+.pilihan a:hover{
+    background-color: gray;
+}
+  
+
+.show {
+    display:block;
+}
